@@ -259,7 +259,12 @@ a.thumbnail:hover{
 	font-size:18px;
 	line-height:22px;
 }
+.thumbnails {
+	list-style: none;
+}
+
 /* media-list */
+
 .media-list{
 	margin-top:30px;
 }

@@ -1,10 +1,10 @@
 /*!
  * Theme Name 	: Booky v1.0
  * Author		: Rajendra Prasad
- * Website		: DoozyPixels	
+ * Website		: DoozyPixels
  *
  */
- 
+
 /* For Logo Only */
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 /* For Website */
@@ -15,8 +15,8 @@ body{
 	font-weight: 400;
 	color:#414042;
 }
-/* 
- * Color Swatches 
+/*
+ * Color Swatches
  */
 .brand-primary{
 	color: #d9563c;
@@ -68,10 +68,10 @@ h5,
 h6,
 label,
 .btn{
-	font-family: "Lato",sans-serif;	
+	font-family: "Lato",sans-serif;
 }
-/* 
- * Section Marketing 
+/*
+ * Section Marketing
  */
 #marketing{
 	 background-color:#d9563c;
@@ -130,11 +130,11 @@ header{
 .hero-title{
 	font-size:36px!important;
 	margin-top:0;
-	color:#fff; 
+	color:#fff;
 	margin-bottom:15px!important;
-	letter-spacing:0!important;	
+	letter-spacing:0!important;
 	font-weight:900;
-	
+
 	text-shadow: 0px 1px rgba(0,0,0,0.2);
 }
 .hero-desc{
@@ -201,12 +201,12 @@ header{
 }
 
 
-/* 
- * Section Wrap 
+/*
+ * Section Wrap
  */
 #inside{
 	background-color: #fff;
-} 
+}
 .sec-wrap{
 	padding:50px 0;
 }
@@ -240,7 +240,7 @@ header{
 	font-family:'FontAwesome';
 	content:"\f111";
 	color:#69c8c5;
-	font-size:8px; 
+	font-size:8px;
 	vertical-align: top;
 	padding-right:10px;
 }
@@ -263,12 +263,12 @@ a.thumbnail:hover{
   cursor: pointer;
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
-  cursor: zoom-in; 
+  cursor: zoom-in;
 }
 .text-lead{
 	font-size:16px;
 	line-height:20px;
-}	
+}
 .text-lead-big{
 	font-size:18px;
 	line-height:22px;
@@ -288,7 +288,7 @@ a.thumbnail:hover{
 }
 .media-heading{
 	margin:4px 0 15px;
-	color:#d9563c;	
+	color:#d9563c;
 }
 
 
@@ -310,7 +310,7 @@ blockquote{
 blockquote small{
 	color:#b8b8b8;
 	font-size:12px;
-}	
+}
 .testi-thumb{
 	margin-bottom:20px;
 }
@@ -332,7 +332,7 @@ blockquote small{
  */
 #author{
 	background-color: #fff;
-} 
+}
 #author .social-icons > a{
 	background-color: #d9563c;
 }
@@ -353,10 +353,10 @@ blockquote small{
 
 /*
  * Marketing Footer
- */ 
+ */
 #marketing-footer{
 	background:#d9563c;
-} 
+}
 
 #marketing-footer .hero-form{
 	margin-bottom:0;
@@ -371,14 +371,14 @@ blockquote small{
 
 /*
  * Footer
- */ 
- 
+ */
+
 footer{
 	padding:20px 0 10px;
 	background: #000;
 	color:#b8b8b8;
 }
- 
+
 /*
  * Buttons
  */
@@ -528,7 +528,7 @@ footer{
 	.social-icons.text-left > a{
 		margin:0 5px;
 	}
-	
+
 }
 @media (min-width: 768px) and (max-width: 979px) {
 	.hero-form .text-small{
@@ -559,5 +559,5 @@ footer{
 		float:none;
 		display: block;
 	}
-	
+
 }

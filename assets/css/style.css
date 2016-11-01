@@ -15,9 +15,11 @@ body{
 	font-weight: 400;
 	color:#414042;
 }
+
 /*
  * Color Swatches
  */
+
 .brand-primary{
 	color: #d9563c;
 }
@@ -183,27 +185,11 @@ header{
 	display: block;
 	margin:0 auto 20px;
 }
-/* Pricing */
-.pricing-box{
-	border:solid 2px #b0402a;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	color:#fff;
-	padding:0 60px;
-	min-height:150px!important;
-}
-.pricing-box h3{
-	margin: -10px 0 5px;
-}
-.pricing-box.checked{
-	background-color:#b0402a;
-}
-
 
 /*
  * Section Wrap
  */
+
 #inside{
 	background-color: #fff;
 }
@@ -291,8 +277,6 @@ a.thumbnail:hover{
 	color:#d9563c;
 }
 
-
-
 /*
  * Testimonial
  */
@@ -327,9 +311,11 @@ blockquote small{
 	color:#d9563c;
 	margin-bottom:5px;
 }
+
 /*
  * Author
  */
+
 #author{
 	background-color: #fff;
 }
@@ -354,6 +340,7 @@ blockquote small{
 /*
  * Marketing Footer
  */
+
 #marketing-footer{
 	background:#d9563c;
 }
@@ -382,6 +369,7 @@ footer{
 /*
  * Buttons
  */
+
 .btn{
 	background-image: none;
 	border:none;
@@ -468,9 +456,11 @@ footer{
 	border-top-color: #000;
 	border-bottom-color: #000;
 }
+
 /*
  * Dropdown
  */
+
 .dropdown-menu{
 	box-shadow:none;
 }
@@ -483,8 +473,6 @@ footer{
 	background-image: none;
 	background-color: #d9563c;
 }
-
-
 
 @media (max-width: 767px){
 	body{

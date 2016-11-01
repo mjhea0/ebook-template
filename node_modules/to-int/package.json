@@ -1,0 +1,28 @@
+{
+  "name": "to-int",
+  "version": "0.1.0",
+  "description": "Parse a number from a string, defaulting to 0 (or any desired default)",
+  "license": "MIT",
+  "repository": "natecavanaugh/to-int",
+  "author": {
+    "name": "Nate Cavanaugh",
+    "email": "nate@shift22.com",
+    "url": "alterform.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

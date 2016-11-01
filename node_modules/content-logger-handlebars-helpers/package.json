@@ -1,0 +1,42 @@
+{
+  "name": "content-logger-handlebars-helpers",
+  "version": "0.0.1",
+  "description": "My mathematical module",
+  "license": "MIT",
+  "repository": "natecavanaugh/content-logger-handlebars-helpers",
+  "author": {
+    "name": "Nate Cavanaugh",
+    "email": "nate@shift22.com",
+    "url": "alterform.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "gulp test-coverage",
+    "coveralls": "gulp coveralls"
+  },
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "cli-color-keywords": "0.0.1",
+    "handlebars": "^3.0.3",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "chai-string": "*",
+    "coveralls": "*",
+    "gulp-coveralls": "*",
+    "gulp-istanbul": "*",
+    "istanbul": "*",
+    "sinon": "*",
+    "gulp": "*",
+    "gulp-load-plugins": "*",
+    "gulp-help": "*",
+    "run-sequence": "*",
+    "gulp-mocha": "*"
+  }
+}

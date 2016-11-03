@@ -48,7 +48,7 @@ body{
  */
 
 a{
-	color:#d9563c;
+	color:#F26922;
 }
 a:hover, a:focus{
 	color:#d9563c;
@@ -58,6 +58,9 @@ a.link-white{
 }
 a.link-white:hover{
 	color:#fff;
+}
+hr {
+	border: 1px solid #F7681A;
 }
 b{
 	font-weight: 700;
@@ -70,13 +73,13 @@ h5,
 h6,
 label,
 .btn{
-	font-family: "Lato",sans-serif;
+	font-family: "Bree Serif", serif;
 }
 /*
  * Section Marketing
  */
 #marketing{
-	 background-color:#d9563c;
+	 background-color:#f26922;
 	 min-height:400px;
 	 width:100%;
 }
@@ -143,9 +146,10 @@ header{
 	margin-bottom: 20px;
 	font-size:18px;
 	line-height:24px;
+	font-family: inherit;
 }
 .hero-form{
-	background:#b0402a;
+	background:#903605;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -202,8 +206,7 @@ header{
 }
 .sec-title span{
 	border-radius: 4px;
-	background-color:#69c8c5;
-	color:#fff;
+	color:#222;
 	font-weight:400!important;
 	padding:5px 10px;
 	text-shadow: 0px 1px rgba(0,0,0,0.2);
@@ -254,13 +257,18 @@ a.thumbnail:hover{
 .text-lead{
 	font-size:16px;
 	line-height:20px;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .text-lead-big{
 	font-size:18px;
 	line-height:22px;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .thumbnails {
 	list-style: none;
+}
+li {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* media-list */
@@ -313,7 +321,7 @@ blockquote small{
 	margin-bottom:20px;
 }
 .testi-user{
-	color:#d9563c;
+	color:#F26922;
 	margin-bottom:5px;
 }
 
@@ -347,7 +355,7 @@ blockquote small{
  */
 
 #marketing-footer{
-	background:#d9563c;
+	background:#f26922;
 }
 
 #marketing-footer .hero-form{
@@ -367,7 +375,7 @@ blockquote small{
 
 footer{
 	padding:20px 0 10px;
-	background: #000;
+	background: #545457;
 	color:#b8b8b8;
 }
 

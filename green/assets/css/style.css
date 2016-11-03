@@ -24,7 +24,7 @@ body{
 	color: #d9563c;
 }
 .brand-primary-darker{
-	color: #b0402a;
+	color: #AB1894;
 }
 .brand-secondary{
 	color: #69c8c5;
@@ -48,10 +48,10 @@ body{
  */
 
 a{
-	color:#F26922;
+	color:#AB1894;
 }
 a:hover, a:focus{
-	color:#d9563c;
+	color:#AB1894;
 }
 a.link-white{
 	color:#fff;
@@ -60,7 +60,7 @@ a.link-white:hover{
 	color:#fff;
 }
 hr {
-	border: 1px solid #F7681A;
+	border: 1px solid #AB1894;
 }
 b{
 	font-weight: 700;
@@ -79,7 +79,7 @@ label,
  * Section Marketing
  */
 #marketing{
-	 background-color:#f26922;
+	 background-color:#62D41E;
 	 min-height:400px;
 	 width:100%;
 }
@@ -88,7 +88,7 @@ header{
 }
 .header-inner{
 	padding-bottom:30px;
-	border-bottom:solid 1px #c94d35; /* Fallback */
+	border-bottom:solid 1px #AB1894; /* Fallback */
 	overflow: hidden;
 }
 .logo{
@@ -104,7 +104,7 @@ header{
 }
 .social-icons > a{
 	text-align:center;
-	background-color: #b0402a;
+	background-color: #AB1894;
 	border-radius:2px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
@@ -149,7 +149,7 @@ header{
 	font-family: inherit;
 }
 .hero-form{
-	background:#903605;
+	background:#AB1894;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -180,7 +180,7 @@ header{
 	margin-top:25px;
 }
 .buy-form .well{
-	background:#b0402a;
+	background:#AB1894;
 	border:none;
 	margin-top:20px;
 	padding:30px;
@@ -321,7 +321,7 @@ blockquote small{
 	margin-bottom:20px;
 }
 .testi-user{
-	color:#F26922;
+	color:#AB1894;
 	margin-bottom:5px;
 }
 
@@ -333,11 +333,11 @@ blockquote small{
 	background-color: #fff;
 }
 #author .social-icons > a{
-	background-color: #d9563c;
+	background-color: #AB1894;
 }
 #author .social-icons > a:hover{
 	color:#fff;
-	background-color: #b0402a;
+	background-color: #AB1894;
 }
 #author .media{
 	margin:30px 0;
@@ -355,7 +355,7 @@ blockquote small{
  */
 
 #marketing-footer{
-	background:#f26922;
+	background:#62D41E;
 }
 
 #marketing-footer .hero-form{
@@ -394,7 +394,7 @@ footer{
 	background-color: #d9563c;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled]{
-	background-color: #b0402a;
+	background-color: #AB1894;
 }
 .btn-info{
 	background-color: #69c8c5;

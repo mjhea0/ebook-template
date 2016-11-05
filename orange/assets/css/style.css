@@ -17,6 +17,75 @@ body{
 }
 
 /*
+Variable colors
+*/
+
+#marketing{
+	/*background-color:#f26922;*/
+	background-color:{%= marketingColor %};
+	min-height:400px;
+	width:100%;
+}
+.social-icons > a{
+	text-align:center;
+	/*background-color: #b0402a;*/
+	background-color: {%= socialColor %};
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	color: #fff;
+	font-size: 24px;
+	display: inline-block;
+	padding:5px 7px;
+	text-shadow: 0px 1px rgba(0,0,0,0.2);
+}
+.hero-form{
+	/*background:#903605;*/
+	background: {%= heroColor %}
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding:20px 20px 15px;
+	color:#fff;
+}
+hr {
+	/*border: 1px solid #F7681A;*/
+	border: 1px solid {%= hrColor %};
+}
+a{
+	/*color:#F26922;*/
+	color: {%= marketingColor %};
+}
+a:hover, a:focus{
+	/*color:#d9563c;*/
+	color: {%= aColor %};
+}
+.testi-user{
+	/*color:#F26922;*/
+	color: {%= marketingColor %};
+	margin-bottom:5px;
+}
+#author .social-icons > a{
+	/*background-color: #d9563c;*/
+	background-color: {%= aColor %};
+}
+#author .social-icons > a:hover{
+	color:#fff;
+	/*background-color: #b0402a;*/
+	background-color: {%= socialColor %};
+}
+#marketing-footer{
+	/*background:#f26922;*/
+	background-color:{%= marketingColor =%};
+}
+.header-inner{
+	padding-bottom:30px;
+	/*border-bottom:solid 1px #c94d35;  Fallback */
+	border-bottom: solid 1px {%= borderColor %};
+	overflow: hidden;
+}
+
+/*
  * Color Swatches
  */
 
@@ -47,20 +116,11 @@ body{
  *
  */
 
-a{
-	color:#F26922;
-}
-a:hover, a:focus{
-	color:#d9563c;
-}
 a.link-white{
 	color:#fff;
 }
 a.link-white:hover{
 	color:#fff;
-}
-hr {
-	border: 1px solid #F7681A;
 }
 b{
 	font-weight: 700;
@@ -78,18 +138,8 @@ label,
 /*
  * Section Marketing
  */
-#marketing{
-	 background-color:#f26922;
-	 min-height:400px;
-	 width:100%;
-}
 header{
 	padding-top:30px;
-}
-.header-inner{
-	padding-bottom:30px;
-	border-bottom:solid 1px #c94d35; /* Fallback */
-	overflow: hidden;
 }
 .logo{
 	color: #fff;
@@ -101,18 +151,6 @@ header{
 .logo:hover{
 	text-decoration: none;
 	color:#fff;
-}
-.social-icons > a{
-	text-align:center;
-	background-color: #b0402a;
-	border-radius:2px;
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	color: #fff;
-	font-size: 24px;
-	display: inline-block;
-	padding:5px 7px;
-	text-shadow: 0px 1px rgba(0,0,0,0.2);
 }
 .social-icons.text-right > a{
 	margin-left:10px;
@@ -147,14 +185,6 @@ header{
 	font-size:18px;
 	line-height:24px;
 	font-family: inherit;
-}
-.hero-form{
-	background:#903605;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	padding:20px 20px 15px;
-	color:#fff;
 }
 .hero-form label{
 	font-size:18px;
@@ -320,10 +350,6 @@ blockquote small{
 	line-height:22px;
 	margin-bottom:20px;
 }
-.testi-user{
-	color:#F26922;
-	margin-bottom:5px;
-}
 
 /*
  * Author
@@ -331,13 +357,6 @@ blockquote small{
 
 #author{
 	background-color: #fff;
-}
-#author .social-icons > a{
-	background-color: #d9563c;
-}
-#author .social-icons > a:hover{
-	color:#fff;
-	background-color: #b0402a;
 }
 #author .media{
 	margin:30px 0;
@@ -353,10 +372,6 @@ blockquote small{
 /*
  * Marketing Footer
  */
-
-#marketing-footer{
-	background:#f26922;
-}
 
 #marketing-footer .hero-form{
 	margin-bottom:0;

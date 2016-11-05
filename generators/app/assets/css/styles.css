@@ -38,7 +38,7 @@ Variable colors
 	text-shadow: 0px 1px rgba(0,0,0,0.2);
 }
 .hero-form{
-	background: <%= heroColor %>;
+	background: <%= marketingColor %>;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -391,7 +391,8 @@ footer{
 	background-image: none;
 	border:none;
 	font-weight: 700;
-	background-color: #b8b8b8;
+	background-color: <%= socialColor %>;
+	color: white;
 	text-shadow: none;
 }
 .btn-primary{

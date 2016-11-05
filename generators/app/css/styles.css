@@ -20,6 +20,11 @@ body{
 Variable colors
 */
 
+.navButton {
+	background-color: <%= socialColor %>;
+	padding: none;
+}
+
 #marketing{
 	background-color:<%= marketingColor %>;
 	min-height:400px;

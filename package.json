@@ -1,13 +1,8 @@
 {
   "name": "generator-ebook-template",
   "version": "0.0.0",
-  "description": "Automatically generates the boilerplate for your ebook page in either green, blue, or orange.",
+  "description": "Automatically generates the boilerplate for your ebook page.",
   "homepage": "",
-  "author": {
-    "name": "Nathan Dennis",
-    "email": "dennis.nathan@gmail.com",
-    "url": "github.com/nathanejbrown"
-  },
   "files": [
     "generators"
   ],
@@ -40,7 +35,6 @@
       "mocha": true
     }
   },
-  "repository": "nathanejbrown/generator-ebook-template",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

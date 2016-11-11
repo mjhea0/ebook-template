@@ -28,7 +28,7 @@
           type: 'input',
           name: 'title',
           message: 'What\'s the title of the book?',
-          default: 'Real Python'
+          default: 'Green Apple'
         },
         {
           type: 'confirm',
@@ -50,9 +50,15 @@
         },
         {
           type: 'input',
+          name: 'lead',
+          message: 'Please enter a lead slogan.',
+          default: 'Responsive landing page for selling an ebook'
+        },
+        {
+          type: 'input',
           name: 'description',
           message: 'Please enter a description for the book.',
-          default: 'Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun! Join the thousands who have already benefited from these unique Python courses and download your copy today. Get three courses, with over 1,300 pages of content - packed with exercises, sample files, assignments, and bonus videos for only $60!'
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut scelerisque nibh, at sollicitudin arcu. Donec viverra ullamcorper pulvinar. Proin vel nulla sed diam tempor ullamcorper sed quis eros. Phasellus nunc elit, viverra aliquet elit auctor, luctus aliquam justo. Sed et dignissim nisl. Pellentesque cursus augue id elit tempor cursus. Suspendisse potenti.'
         },
         {
           type: 'input',
@@ -71,6 +77,7 @@
         this.destinationPath('./index.html'),
         {
           title: this.props.title,
+          lead: this.props.lead,
           pictureUrl: this.props.pictureUrl,
           description: this.props.description,
           price: this.props.price

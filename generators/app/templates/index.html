@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <title>Green Apple - responsive landing page for selling an ebook</title>
+  <title><%= title %> - <%= lead %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Green Apple - responsive landing page for selling an ebook.">
+  <meta name="description" content=<%= title %> - <%= lead %>>
   <meta name="author" content="Michael Herman">
   <!-- stylesheets -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Pacifico">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic" media="screen" title="no title">
-  <link href="./assets/css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic">
+  <link href="./assets/css/styles.css" rel="stylesheet">
   <!-- fav and touch icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="assets/ico/favicon.png">
-  <script src="//apis.google.com/js/platform.js" async defer>
-  </script>
 </head>
 
 <body>
@@ -30,7 +27,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="header-inner">
-            <a class="logo pull-left" href="#">Booky</a>
+            <a class="logo pull-left" href="/"><span class="glyphicon glyphicon-apple"></span><%= title %></a>
             <div class="social-icons text-right pull-right">
               <a href="#"><i class="fa fa-facebook"></i></a>
               <a href="#"><i class="fa fa-twitter"></i></a>
@@ -52,7 +49,7 @@
               <!--/col-md-5-->
 
               <div class="col-md-7">
-                <h1 class="hero-title"><%= title %></h1>
+                <h1 class="hero-title"><%= lead %></h1>
                 <p class="hero-desc">
                   <%= description %>
                 </p>
@@ -305,17 +302,14 @@
         <div class="col-md-8 col-md-offset-2">
           <form class="hero-form tweet-form">
             <div class="row">
-              <div class="col-md-3 text-center">
-                <img src="assets/img/how-to-sell-online-book-cover-small.png" width="128" height="177" alt="book cover" />
-              </div>
-              <div class="col-md-9">
-                <div class="col-lg-4 col-md-4">
+              <div class="col-md-12">
+                <div class="col-lg-6 col-md-6">
                   <a class="btn btn-block btn-lg buy-button">
                     <i class="glyphicon glyphicon-cloud-download"></i>
                     Download
                   </a>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-6 col-md-6">
                   <a class="btn btn-block btn-lg buy-button">
                     <i class="glyphicon glyphicon-link"></i>
                     Read Online
@@ -349,6 +343,7 @@
   <!-- Le javascript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
+  <script src="//apis.google.com/js/platform.js" async defer></script>
   <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
   <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

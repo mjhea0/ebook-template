@@ -1,0 +1,11 @@
+{
+  "name": "ebook-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/http-server/bin/http-server"
+  },
+  "dependencies": {
+    "http-server": "0.9.0"
+  }
+}

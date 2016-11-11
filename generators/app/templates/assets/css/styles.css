@@ -1,19 +1,7 @@
-/*!
- * Theme Name 	: Booky v1.0
- * Author		: Rajendra Prasad
- * Website		: DoozyPixels
- *
- */
-
-/* For Logo Only */
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
-/* For Website */
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic);
-
-body{
+body {
 	font-family: "Lato",Verdana, Geneva, sans-serif;
 	font-weight: 400;
-	color:#414042;
+	color: #414042;
 }
 
 .social-button-pic {
@@ -403,6 +391,15 @@ footer{
 	background-color: <%= socialColor %>;
 	color: white;
 	text-shadow: none;
+}
+.buy-button {
+	height: 68px;
+	font-size: 26px;
+	padding-top: 16px;
+}
+.nav-button {
+	height: 68px;
+	font-s
 }
 .btn-primary{
 	background-color: #d9563c;

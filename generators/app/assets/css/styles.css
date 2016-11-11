@@ -21,6 +21,10 @@ body{
 	height: 28px;
 }
 
+.container {
+	max-width: 950px;
+}
+
 /*
 Variable colors
 */

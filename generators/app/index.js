@@ -33,6 +33,14 @@ module.exports = yeoman.Base.extend({
       type: 'input',
       name: 'pictureUrl',
       message: 'Please input a URL.'
+    }, {
+      type: 'input',
+      name: 'description',
+      message: 'Please enter a description for the book.'
+    }, {
+      type: 'input',
+      name: 'price',
+      message: 'What price would you like displayed for your book?'
     }];
 
     return this.prompt(prompts).then(function (props) {
@@ -46,7 +54,9 @@ module.exports = yeoman.Base.extend({
       this.destinationPath('./index.html'),
       {
         title: this.props.title,
-        pictureUrl: this.props.pictureUrl
+        pictureUrl: this.props.pictureUrl,
+        description: this.props.description,
+        price: this.props.price
       }
     );
     this.fs.copy(

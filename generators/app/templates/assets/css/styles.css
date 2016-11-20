@@ -13,6 +13,14 @@ body {
 	max-width: 950px;
 }
 
+.chapters-main-header {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #CECDCD;
+  text-align: right;
+}
+
 /*
 Variable colors
 */

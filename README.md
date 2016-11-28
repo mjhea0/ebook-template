@@ -10,6 +10,8 @@
 
 ## Todo
 
+1. Update left header - DONE
+1. Update green styles
 1. Update "What's Inside"
 1. Refactor HTML
   - rename "chapters-main" section to "contents-main"

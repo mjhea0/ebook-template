@@ -29,8 +29,12 @@
           <div class="header-inner">
             <a class="logo pull-left" href="/"><span class="glyphicon glyphicon-apple"></span>&nbsp;<%= title %></a>
             <div class="social-icons text-right pull-right">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
+              <% if (facebook) { %>
+                <a href=<%= facebook %>><i class="fa fa-facebook fa-social-icon"></i></a>
+              <% } %>
+              <% if (twitter) { %>
+                <a href=<%= twitter %>><i class="fa fa-twitter fa-social-icon"></i></a>
+              <% } %>
             </div>
             <!--/social-icons-->
           </div>

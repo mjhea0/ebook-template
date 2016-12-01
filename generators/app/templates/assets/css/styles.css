@@ -40,7 +40,6 @@ Variable colors
 	font-size: 24px;
 	display: inline-block;
 	padding:5px 7px;
-	text-shadow: 0px 1px rgba(0,0,0,0.2);
 }
 .hero-form{
 	background: <%= marketingColor %>;
@@ -146,6 +145,10 @@ header{
 	text-decoration: none;
 	color:#fff;
 }
+.fa-social-icon {
+	width: 24px;
+}
+}
 .social-icons.text-right > a{
 	margin-left:10px;
 }
@@ -157,7 +160,7 @@ header{
 }
 .social-icons > a:hover{
 	text-decoration: none;
-	color:#d9563c;
+	color:#333;
 }
 .masthead{
 	padding:50px 0!important;

@@ -65,7 +65,45 @@
           name: 'price',
           message: 'What price would you like displayed for your book?',
           default: '60'
-        }
+        },
+        {
+          type: 'confirm',
+          name: 'facebookPrompt',
+          message: 'Would you like to add a link to your Facebook profile?',
+          default: false
+        },
+        {
+          when: function (response) {
+            if (response.facebookPrompt) {
+            return response.facebookPrompt;
+          } else {
+            return false;
+          }
+        },
+          type: 'input',
+          name: 'facebookUrl',
+          message: 'Please input a URL.',
+          default : 'https://facebook.com'
+        },
+        {
+          type: 'confirm',
+          name: 'twitterPrompt',
+          message: 'Would you like to add a link to your Twitter profile?',
+          default: false
+        },
+        {
+          when: function (response) {
+            if (response.twitterPrompt) {
+            return response.twitterPrompt;
+          } else {
+            return false;
+          }
+        },
+          type: 'input',
+          name: 'twitterUrl',
+          message: 'Please input a URL.',
+          default : 'https://twitter.com'
+        },
       ];
       return this.prompt(prompts).then(function (props) {
         this.props = props;
@@ -80,7 +118,9 @@
           lead: this.props.lead,
           pictureUrl: this.props.pictureUrl,
           description: this.props.description,
-          price: this.props.price
+          price: this.props.price,
+          facebook: this.props.facebookUrl,
+          twitter: this.props.twitterUrl
         }
       );
       this.fs.copy(

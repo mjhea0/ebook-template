@@ -11,6 +11,8 @@
 ## Todo
 
 1. Update left header - DONE
+1. Update right header - DONE
+1. Update main image
 1. Update green styles
 1. Update "What's Inside"
 1. Refactor HTML

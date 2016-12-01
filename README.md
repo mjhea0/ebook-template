@@ -1,5 +1,7 @@
 # Ebook Template
 
+[Sample](http://mherman.org/ebook-template/)
+
 ## Steps
 
 1. Fork/Clone
@@ -12,7 +14,7 @@
 
 1. Update left header - DONE
 1. Update right header - DONE
-1. Add sample
+1. Add sample - DONE
 1. Update main image
 1. Update green styles
 1. Update "What's Inside"
@@ -22,3 +24,5 @@
   - remove un-used styles
 1. Make favicon dynamic
 1. Add Gumroad
+
+> Make sure to update gh-pages branch: `git subtree push --prefix _example origin gh-pages`

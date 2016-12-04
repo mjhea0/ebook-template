@@ -33,7 +33,7 @@
         {
           type: 'confirm',
           name: 'picturePrompt',
-          message: 'Would you like to upload a book cover picture (316x228)?',
+          message: 'Would you like to upload a book cover picture (228x316)?',
           default: false
         },
         {
@@ -41,7 +41,7 @@
             if (response.picturePrompt) {
             return response.picturePrompt;
           } else {
-            response.pictureUrl = 'http://placehold.it/316x228';
+            response.pictureUrl = 'http://placehold.it/228x316';
           }
         },
           type: 'input',
@@ -70,7 +70,7 @@
           type: 'confirm',
           name: 'facebookPrompt',
           message: 'Would you like to add a link to your Facebook profile?',
-          default: false
+          default: true
         },
         {
           when: function (response) {
@@ -89,7 +89,7 @@
           type: 'confirm',
           name: 'twitterPrompt',
           message: 'Would you like to add a link to your Twitter profile?',
-          default: false
+          default: true
         },
         {
           when: function (response) {

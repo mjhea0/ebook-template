@@ -43,37 +43,61 @@
         <!--/col-md-12-->
         <div class="col-md-12">
           <div class="masthead">
-            <div class="row">
-              <div class="col-md-5">
-                <div class="marketing-media">
-                  <img src=<%= pictureUrl %>>
+            <% if (picturePrompt) { %>
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="marketing-media">
+                    <img src=<%= pictureUrl %>>
+                  </div>
+                  <!--/marketing-media-->
                 </div>
-                <!--/marketing-media-->
+                <!--/col-md-5-->
+                <div class="col-md-7">
+                  <h1 class="hero-title"><%= lead %></h1>
+                  <p class="hero-desc">
+                    <%= description %>
+                  </p>
+                  <div class="col-lg-6 col-md-6">
+                    <a class="btn btn-block btn-lg buy-button">
+                      <i class="glyphicon glyphicon-cloud-download"></i>
+                      Download
+                    </a>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <a class="btn btn-block btn-lg buy-button">
+                      <i class="glyphicon glyphicon-link"></i>
+                      Read Online
+                    </a>
+                  </div>
+                </div>
+                <!--/col-md-7-->
               </div>
-              <!--/col-md-5-->
-
-              <div class="col-md-7">
-                <h1 class="hero-title"><%= lead %></h1>
-                <p class="hero-desc">
-                  <%= description %>
-                </p>
-                <div class="col-lg-6 col-md-6">
-                  <a class="btn btn-block btn-lg buy-button">
-                    <i class="glyphicon glyphicon-cloud-download"></i>
-                    Download
-                  </a>
+              <!--/row-->
+            <% } %>
+            <% if (!picturePrompt) { %>
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                  <h1 class="hero-title"><%= lead %></h1>
+                  <p class="hero-desc">
+                    <%= description %>
+                  </p>
+                  <div class="col-lg-6 col-md-6">
+                    <a class="btn btn-block btn-lg buy-button">
+                      <i class="glyphicon glyphicon-cloud-download"></i>
+                      Download
+                    </a>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <a class="btn btn-block btn-lg buy-button">
+                      <i class="glyphicon glyphicon-link"></i>
+                      Read Online
+                    </a>
+                  </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                  <a class="btn btn-block btn-lg buy-button">
-                    <i class="glyphicon glyphicon-link"></i>
-                    Read Online
-                  </a>
-                </div>
+                <!--/col-md-7-->
               </div>
-              <!--/col-md-7-->
-            </div>
-            <!--/row-->
-
+              <!--/row-->
+            <% } %>
           </div>
           <!--/masthead-->
         </div>

@@ -33,20 +33,21 @@
         {
           type: 'confirm',
           name: 'picturePrompt',
-          message: 'Would you like to upload a book cover picture (228x316)?',
-          default: false
+          message: 'Would you like to display a book cover picture?',
+          default: true
         },
         {
           when: function (response) {
             if (response.picturePrompt) {
             return response.picturePrompt;
           } else {
-            response.pictureUrl = 'http://placehold.it/228x316';
+            return false;
           }
         },
           type: 'input',
           name: 'pictureUrl',
-          message: 'Please input a URL.'
+          message: 'Please input a URL.',
+          default : 'http://placehold.it/228x316'
         },
         {
           type: 'input',
@@ -116,6 +117,7 @@
         {
           title: this.props.title,
           lead: this.props.lead,
+          picturePrompt: this.props.picturePrompt,
           pictureUrl: this.props.pictureUrl,
           description: this.props.description,
           price: this.props.price,

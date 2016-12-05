@@ -16,7 +16,7 @@
 1. Update right header - DONE
 1. Add sample - DONE
 1. Update main image - DONE
-1. Ask if user wants to use a main book image
+1. Ask if user wants to use a main book image - DONE
 1. Update download and read online buttons
 1. Update green styles
 1. Update "What's Inside"

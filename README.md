@@ -17,7 +17,7 @@
 1. Add sample - DONE
 1. Update main image - DONE
 1. Ask if user wants to use a main book image - DONE
-1. Update download and read online buttons
+1. Update download and read online buttons - DONE
 1. Update green styles
 1. Update "What's Inside"
 1. Refactor HTML
@@ -26,5 +26,6 @@
   - remove un-used styles
 1. Make favicon dynamic
 1. Add Gumroad
+1. Add JSDom tests
 
 > Make sure to update gh-pages branch: `git subtree push --prefix _example origin gh-pages`

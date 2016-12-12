@@ -174,12 +174,12 @@
         aColor = socialColor;
         borderColor = socialColor;
       } else if (this.props.whichColor === 'green') {
-        marketingColor = '#62d41e';
-        socialColor = '#ab1894';
-        heroColor = socialColor;
-        hrColor = socialColor;
-        aColor = socialColor;
-        borderColor = socialColor;
+        marketingColor = '#17A174';
+        socialColor = '#205E9E';
+        heroColor = '#0A325E';
+        hrColor = '#1C5BA1';
+        aColor = '#2A6E88';
+        borderColor = '#25687E';
       }
       this.fs.copyTpl(
         this.templatePath('./assets/css/styles.css'),

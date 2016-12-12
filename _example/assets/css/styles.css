@@ -26,13 +26,13 @@ Variable colors
 */
 
 #marketing{
-	background-color:#f26922;
+	background-color:#17A174;
 	min-height:400px;
 	width:100%;
 }
 .social-icons > a{
 	text-align:center;
-	background-color: #b0402a;
+	background-color: #205E9E;
 	border-radius:2px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
@@ -42,7 +42,7 @@ Variable colors
 	padding:5px 7px;
 }
 .hero-form{
-	background: #f26922;
+	background: #17A174;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -50,31 +50,31 @@ Variable colors
 	color:#fff;
 }
 hr {
-	border: 1px solid #f7681a;
+	border: 1px solid #1C5BA1;
 }
 a{
-	color: #f26922;
+	color: #17A174;
 }
 a:hover, a:focus{
-	color: #d9563c;
+	color: #2A6E88;
 }
 .testi-user{
-	color: #f26922;
+	color: #17A174;
 	margin-bottom:5px;
 }
 #author .social-icons > a{
-	background-color: #d9563c;
+	background-color: #2A6E88;
 }
 #author .social-icons > a:hover{
 	color:#fff;
-	background-color: #b0402a;
+	background-color: #205E9E;
 }
 #marketing-footer{
-	background-color:#f26922;
+	background-color:#17A174;
 }
 .header-inner{
 	padding-bottom:30px;
-	border-bottom: solid 1px #c94d35;
+	border-bottom: solid 1px #25687E;
 	overflow: hidden;
 }
 
@@ -401,7 +401,7 @@ footer{
 	background-image: none;
 	border:none;
 	font-weight: 700;
-	background-color: #b0402a;
+	background-color: #205E9E;
 	color: white;
 	text-shadow: none;
 }

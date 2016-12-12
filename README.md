@@ -18,8 +18,9 @@
 1. Update main image - DONE
 1. Ask if user wants to use a main book image - DONE
 1. Update download and read online buttons - DONE
-1. Update green styles
+1. Update green styles - DONE
 1. Update "What's Inside"
+1. Update blue styles
 1. Refactor HTML
   - rename "chapters-main" section to "contents-main"
 1. Refactor CSS

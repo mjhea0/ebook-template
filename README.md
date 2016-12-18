@@ -20,7 +20,7 @@
 1. Update download and read online buttons - DONE
 1. Update green styles - DONE
 1. Update "What's Inside" - DONE
-1. Update blue styles
+1. Update blue styles - DONE
 1. Update testimonials
 1. Refactor HTML
   - rename "chapters-main" section to "contents-main"

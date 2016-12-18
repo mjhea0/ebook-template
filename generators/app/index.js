@@ -160,19 +160,19 @@
       let aColor = '';
       let borderColor = '';
       if (this.props.whichColor === 'orange') {
-        marketingColor = '#f26922';
-        socialColor = '#b0402a';
+        marketingColor = '#F26822';
+        socialColor = '#B03F2A';
         heroColor = '#903605';
-        hrColor = '#f7681a';
-        aColor = '#d9563c';
-        borderColor = '#c94d35';
+        hrColor = '#F7671A';
+        aColor = '#D9573C';
+        borderColor = '#C94C35';
       } else if (this.props.whichColor === 'blue'){
-        marketingColor = '#205e9e';
-        socialColor = '#62d41e';
-        heroColor = socialColor;
-        hrColor = socialColor;
-        aColor = socialColor;
-        borderColor = socialColor;
+        marketingColor = '#205E9E';
+        socialColor = '#1D5A6E';
+        heroColor = '#0A325E';
+        hrColor = '#1C5BA1';
+        aColor = '#2A6E88';
+        borderColor = '#25687E';
       } else if (this.props.whichColor === 'green') {
         marketingColor = '#17A174';
         socialColor = '#205E9E';

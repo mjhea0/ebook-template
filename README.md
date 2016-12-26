@@ -21,13 +21,13 @@
 1. Update green styles - DONE
 1. Update "What's Inside" - DONE
 1. Update blue styles - DONE
-1. Update testimonials
+1. Update testimonials - DONE
+1. Update social share 
 1. Refactor HTML
   - rename "chapters-main" section to "contents-main"
 1. Refactor CSS
   - remove un-used styles
 1. Make favicon dynamic
 1. Add Gumroad
-1. Add JSDom tests
 
 > Make sure to update gh-pages branch: `git subtree push --prefix _example origin gh-pages`

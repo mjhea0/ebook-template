@@ -58,7 +58,7 @@ a{
 a:hover, a:focus{
 	color: <%= aColor %>;
 }
-.testi-user{
+.testimonial-user {
 	color: <%= marketingColor %>;
 	margin-bottom:5px;
 }
@@ -323,31 +323,29 @@ li {
  * Testimonial
  */
 
-#testimonial
-{
-	background:#f2f2f2;
+#testimonial {
+	background: #f2f2f2;
 }
-blockquote{
-	border:none;
-	padding:0;
-	text-align:center;
-	margin:0;
+blockquote {
+	border: none;
+	padding: 0;
+	margin: 0;
 }
-blockquote small{
-	color:#b8b8b8;
-	font-size:12px;
+blockquote small {
+	color: #b8b8b8;
+	font-size: 12px;
 }
-.testi-thumb{
-	margin-bottom:20px;
+.testimonial-thumb {
+	margin-bottom: 20px;
 }
-.testi-thumb img{
+.testimonial-thumb img {
 	background: #b8b8b8;
-	border-radius:4px;
+	border-radius: 4px;
 }
-.testi-text{
-	font-size:18px;
-	line-height:22px;
-	margin-bottom:20px;
+.testimonial-text {
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 20px;
 }
 
 /*

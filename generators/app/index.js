@@ -68,6 +68,12 @@
           default: '60'
         },
         {
+          type: 'input',
+          name: 'authorPhoto',
+          message: 'Please input a URL for the author photo.',
+          default : 'http://placehold.it/135x135'
+        },
+        {
           type: 'confirm',
           name: 'facebookPrompt',
           message: 'Would you like to add a link to your Facebook profile?',
@@ -121,6 +127,7 @@
           pictureUrl: this.props.pictureUrl,
           description: this.props.description,
           price: this.props.price,
+          authorPhoto: this.props.authorPhoto,
           facebook: this.props.facebookUrl,
           twitter: this.props.twitterUrl
         }

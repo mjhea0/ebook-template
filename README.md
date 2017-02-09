@@ -23,6 +23,7 @@
 1. Update blue styles - DONE
 1. Update testimonials - DONE
 1. Update about the author - DONE
+1. Update footer - DONE
 1. Update social share
 1. Refactor HTML
   - rename "chapters-main" section to "contents-main"

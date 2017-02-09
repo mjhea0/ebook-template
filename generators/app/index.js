@@ -129,7 +129,9 @@
           price: this.props.price,
           authorPhoto: this.props.authorPhoto,
           facebook: this.props.facebookUrl,
-          twitter: this.props.twitterUrl
+          twitter: this.props.twitterUrl,
+          year: (new Date()).getFullYear(),
+          name: this.props.name
         }
       );
       this.fs.copy(
